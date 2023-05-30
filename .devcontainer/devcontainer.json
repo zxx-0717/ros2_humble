@@ -27,8 +27,8 @@
 	// 	"LD_LIBRARY_PATH": "/usr/lib/wsl/lib"
 	// },
 	"dockerComposeFile": "docker-compose.yaml",
-	"service": "sim",
-	"workspaceFolder": "/workspaces/capella_ros_docker",
+	"service": "sim-dev",
+	"workspaceFolder": "/workspaces/ros2_humble",
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.profiles.linux": {
