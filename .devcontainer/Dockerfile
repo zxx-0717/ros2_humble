@@ -9,6 +9,9 @@ RUN apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E
 RUN apt-get update \
     && apt-get -y install --no-install-recommends \
     ros-humble-rmw-cyclonedds-cpp \
+    ros-humble-navigation2 \
+    ros-humble-nav2-bringup \
+    ros-humble-turtlebot3-gazebo \
     python3-pytest \
     && apt-get autoremove -y \
     && apt-get clean -y \

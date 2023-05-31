@@ -110,7 +110,7 @@
     ],
     "C_Cpp.default.intelliSenseMode": "clang-x64",
     "C_Cpp.formatting": "Disabled",
-    "uncrustify.configPath.linux": "./uncrustify.cfg",
+    "uncrustify.configPath.linux": "./.vscode/uncrustify.cfg",
     "[cpp]": {
         "editor.defaultFormatter": "zachflower.uncrustify"
     },
@@ -156,6 +156,6 @@
         ".vscode-insiders",
         ".devcontainer/devcontainer.json"
     ],
-    "C_Cpp.errorSquiggles": "Enabled",
+    "C_Cpp.errorSquiggles": "enabled",
     "cmake.sourceDirectory": "${workspaceFolder}/src/capella_ros_launcher",
 }

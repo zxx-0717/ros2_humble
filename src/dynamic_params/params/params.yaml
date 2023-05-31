@@ -1,0 +1,5 @@
+dynamic_params_node:
+  ros__parameters:
+    param1: 21
+    param2: 22.0
+    param3: '23 text'
